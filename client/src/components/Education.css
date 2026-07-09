@@ -1,0 +1,221 @@
+.education {
+
+    background-color: rgb(8, 75, 75);
+
+    color: white;
+
+    padding: 80px 20px;
+
+    text-align: center;
+
+}
+
+
+
+.education h1 {
+
+    font-size: 32px;
+
+    margin-bottom: 50px;
+
+}
+
+
+
+.education-container {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 40px;
+
+    flex-wrap: wrap;
+
+}
+
+
+
+
+.education-card,
+.experience-card {
+
+    width: 360px;
+
+    min-height: 450px;
+
+
+    background: rgba(255, 255, 255, 0.08);
+
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+
+    border-radius: 20px;
+
+
+    padding: 30px;
+
+
+    text-align: left;
+
+
+    backdrop-filter: blur(10px);
+
+
+    transition: all 0.3s ease;
+
+
+}
+
+
+
+.education-card:hover,
+.experience-card:hover {
+
+    transform: translateY(-10px);
+
+
+    
+    box-shadow: 0 10px 30px rgba(5, 129, 224, 0.35);
+
+
+
+    
+
+}
+
+
+
+
+.education-card h2,
+.experience-card h2 {
+
+    text-align: center;
+
+
+    font-size: 26px;
+
+
+    margin-bottom: 25px;
+
+
+    color: rgb(5, 129, 224);
+
+
+}
+
+
+
+
+.education-card h3,
+.experience-card h3 {
+
+    font-size: 20px;
+
+    margin-bottom: 15px;
+
+    color: white;
+
+}
+
+
+
+
+.education-card p,
+.experience-card p {
+
+    color: rgba(255,255,255,0.85);
+
+    line-height: 1.6;
+
+}
+
+
+
+
+.education-card h4,
+.experience-card h4 {
+
+    margin-top: 25px;
+
+    margin-bottom: 15px;
+
+
+    color: white;
+
+
+    font-size:18px;
+
+}
+
+
+
+
+.education-card hr,
+.experience-card hr {
+
+    border:none;
+
+    height:1px;
+
+    background:rgba(255,255,255,0.3);
+
+    margin:20px 0;
+
+}
+
+
+
+
+.education-card ul,
+.experience-card ul {
+
+    padding-left:20px;
+
+}
+
+
+
+
+.education-card li,
+.experience-card li {
+
+    margin-bottom:12px;
+
+    color:rgba(255,255,255,0.9);
+
+}
+
+
+
+
+.education-card li::marker,
+.experience-card li::marker {
+
+    color:rgb(5,129,224);
+
+}
+
+
+
+
+@media(max-width:768px){
+
+    .education-container{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+
+    .education-card,
+    .experience-card{
+
+        width:90%;
+
+    }
+
+}

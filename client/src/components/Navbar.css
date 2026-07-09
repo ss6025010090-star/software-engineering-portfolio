@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    align-items: center;
+
+    padding: 15px 20px;
+    background-color: rgb(5, 49, 49);
+    color: aliceblue;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    margin: 0;
+}
+.full-dev {
+    color: rgb(5, 129, 224);
+}
+
+.nav-link {
+    margin-left: auto;   
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.nav-link a {
+   
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    
+
+}
+
+.nav-link a:hover {
+    
+    color:rgb(5, 129, 224);
+    border-radius: 10px;
+    transition: all 0.1s ease;
+    
+    
+}
+.nav-link a.active {
+    color: rgb(5, 129, 224);
+}

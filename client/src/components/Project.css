@@ -1,0 +1,295 @@
+.project {
+
+    background-color:rgb(8,75,75);
+
+    color:white;
+
+    min-height:100vh;
+
+    padding:80px 20px;
+
+    text-align:center;
+
+}
+
+
+
+/* Title */
+
+.containers h1 {
+
+    margin-bottom:50px;
+
+    font-size:32px;
+
+    color:white;
+
+}
+
+
+
+/* All project cards */
+
+.all {
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:stretch;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+
+    max-width:1200px;
+
+    margin:auto;
+
+}
+
+
+
+/* Card */
+
+.boxes {
+
+
+    background-color:rgba(18,248,240,0.75);
+
+
+    color:rgb(8,75,75);
+
+
+    width:320px;
+
+
+    min-height:420px;
+
+
+    padding:20px;
+
+
+    border-radius:20px;
+
+
+    display:flex;
+
+
+    flex-direction:column;
+
+
+    gap:15px;
+
+
+    transition:0.3s ease;
+
+
+    border:1px solid rgba(255,255,255,0.2);
+
+
+}
+
+
+
+/* Hover */
+
+.boxes:hover {
+
+
+    transform:translateY(-8px);
+
+
+    box-shadow:
+
+    0 10px 25px rgba(18,248,240,0.3);
+
+
+}
+
+
+
+/* Project image */
+
+.boxes img {
+
+
+    width:100%;
+
+
+    height:180px;
+
+
+    object-fit:cover;
+
+
+    border-radius:15px;
+
+
+}
+
+
+
+/* Project title */
+
+.boxes h3 {
+
+
+    font-size:22px;
+
+
+    margin:5px 0;
+
+
+}
+
+
+
+/* Description */
+
+.boxes p {
+
+
+    font-size:15px;
+
+
+    line-height:1.6;
+
+
+    text-align:left;
+
+
+    flex-grow:1;
+
+
+}
+
+
+
+/* Button */
+
+.btn {
+
+
+    margin-top:auto;
+
+
+    padding:12px;
+
+
+    border:none;
+
+
+    background:rgb(8,75,75);
+
+
+    color:white;
+
+
+    border-radius:12px;
+
+
+    cursor:pointer;
+
+
+    font-size:15px;
+
+
+    transition:0.3s;
+
+
+}
+
+
+
+.btn:hover {
+
+
+    background:white;
+
+
+    color:rgb(8,75,75);
+
+
+    border:1px solid rgb(8,75,75);
+
+
+}
+
+
+
+
+
+/* Tablet */
+
+@media(max-width:900px){
+
+
+    .boxes {
+
+
+        width:280px;
+
+
+    }
+
+
+
+    .boxes img {
+
+
+        height:160px;
+
+
+    }
+
+
+}
+
+
+
+
+
+/* Mobile */
+
+@media(max-width:600px){
+
+
+    .project {
+
+
+        padding:60px 15px;
+
+
+    }
+
+
+
+    .containers h1 {
+
+
+        font-size:28px;
+
+
+    }
+
+
+
+    .boxes {
+
+
+        width:100%;
+        max-width:350px;
+
+
+    }
+
+
+
+    .boxes img {
+
+        height:170px;
+    }
+
+
+}

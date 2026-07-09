@@ -1,0 +1,48 @@
+.project-details {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    background: rgb(8, 75, 75);
+    color: white;
+    min-height: 100vh;
+}
+
+.project-details img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.project-details a {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 20px;
+    color: yellow;
+    font-weight: bold;
+}
+.btns button {
+    padding: 15px 30px;
+    background: white;
+    color: rgb(8, 75, 75);
+    border-radius: 10px;
+}
+.live {
+    color:chartreuse ;
+}
+.git {
+    color:chartreuse ;
+}
+
+.all-text {
+    color: rgba(18, 248, 240, 0.626);
+}
+
+.project-details h1 {
+    color: rgba(18, 248, 240, 0.626);
+}
+
+.btns button:hover {
+    background: rgb(5, 50, 50);
+    color: white;
+   
+}
