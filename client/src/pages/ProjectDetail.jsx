@@ -11,7 +11,7 @@ function ProjectDetails() {
     const navigate = useNavigate();
 
     useEffect(() => {
-        fetch(`http://localhost:3001/api/projects/${id}`)
+        fetch(`https://portfolio-backend-ycrm.onrender.com/api/projects/${id}`)
             .then(res => {
                 if (!res.ok) {
                     throw new Error("Project not found");
