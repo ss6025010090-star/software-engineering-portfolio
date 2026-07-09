@@ -7,6 +7,8 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 
 const messageRoutes = require("./routes/messageRoutes");
+const projectRoutes = require("./routes/projectRoutes"); // Add this
+
 
 const app = express();
 
@@ -19,6 +21,8 @@ app.use(express.json());
 // Routes
 
 app.use("/api/messages", messageRoutes);
+
+app.use("/api/projects", projectRoutes); // Add this
 
 
 mongoose.connect(process.env.MONGO_URI)
