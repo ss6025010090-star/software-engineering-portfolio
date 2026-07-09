@@ -14,7 +14,7 @@
 
 
 
-/* Title */
+
 
 .containers h1 {
 
@@ -28,7 +28,6 @@
 
 
 
-/* All project cards */
 
 .all {
 
@@ -50,7 +49,7 @@
 
 
 
-/* Card */
+
 
 .boxes {
 
@@ -92,7 +91,7 @@
 
 
 
-/* Hover */
+
 
 .boxes:hover {
 
@@ -109,7 +108,7 @@
 
 
 
-/* Project image */
+
 
 .boxes img {
 
@@ -130,7 +129,7 @@
 
 
 
-/* Project title */
+
 
 .boxes h3 {
 
@@ -145,7 +144,7 @@
 
 
 
-/* Description */
+
 
 .boxes p {
 
@@ -166,7 +165,7 @@
 
 
 
-/* Button */
+
 
 .btn {
 
@@ -220,7 +219,7 @@
 
 
 
-/* Tablet */
+
 
 @media(max-width:900px){
 
@@ -250,7 +249,7 @@
 
 
 
-/* Mobile */
+
 
 @media(max-width:600px){
 

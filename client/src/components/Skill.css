@@ -29,7 +29,7 @@
 }
 
 
-/* All card container */
+
 
 .contain-all {
 
@@ -45,7 +45,7 @@
 
 
 
-/* Row of cards */
+
 
 .box,
 .box2,
@@ -68,7 +68,7 @@
 
 
 
-/* Skill cards */
+
 
 .box-1,
 .box-2,
@@ -126,7 +126,7 @@
 
 
 
-/* Technology item */
+
 
 .language1,
 .language2,
@@ -150,7 +150,7 @@
 
 
 
-/* Each skill item */
+
 
 .Language-1,
 .Language-2,
@@ -168,7 +168,7 @@
 
 
 
-/* Images */
+
 
 .c-img,
 .cpp-img,
@@ -199,7 +199,7 @@
 
 
 
-/* Text */
+
 
 .box h3,
 .box2 h3,
@@ -254,7 +254,7 @@
 
 
 
-/* Mobile */
+
 
 @media(max-width:600px){
 
@@ -294,7 +294,6 @@
 
 
     }
-
 
 
     .language1,
