@@ -69,7 +69,7 @@ function Contact() {
 
 
             const response = await fetch(
-                "http://localhost:3001/api/messages",
+                "https://portfolio-backend-ycrm.onrender.com/api/messages",
                 {
                     method:"POST",
 

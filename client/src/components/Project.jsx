@@ -7,7 +7,7 @@ function Project() {
     const navigate = useNavigate();
 
     useEffect(() => {
-        fetch("http://localhost:3001/api/projects")
+        fetch("https://portfolio-backend-ycrm.onrender.com/api/projects")
             .then(res => res.json())
             .then(data => setProjects(data))
             .catch(err => console.log(err));
