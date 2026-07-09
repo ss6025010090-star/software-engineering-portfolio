@@ -5,6 +5,7 @@
     background: rgb(8, 75, 75);
     color: white;
     min-height: 100vh;
+    box-sizing: border-box;
 }
 
 .project-details img {
@@ -13,36 +14,122 @@
     margin: 20px 0;
 }
 
+.project-details h1 {
+    color: rgba(18, 248, 240, 0.626);
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.project-details p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+.project-details ul {
+    padding-left: 25px;
+    line-height: 1.8;
+}
+
 .project-details a {
     display: inline-block;
     margin-right: 15px;
     margin-top: 20px;
     color: yellow;
     font-weight: bold;
+    text-decoration: none;
 }
-.btns button {
-    padding: 15px 30px;
-    background: white;
-    color: rgb(8, 75, 75);
-    border-radius: 10px;
-}
-.live {
-    color:chartreuse ;
-}
-.git {
-    color:chartreuse ;
+
+.project-details a:hover {
+    text-decoration: underline;
 }
 
 .all-text {
     color: rgba(18, 248, 240, 0.626);
 }
 
-.project-details h1 {
-    color: rgba(18, 248, 240, 0.626);
+.live {
+    color: chartreuse;
+}
+
+.git {
+    color: chartreuse;
+}
+
+
+.btns {
+    margin-top: 30px;
+}
+
+.btns button {
+    padding: 15px 30px;
+    background: white;
+    color: rgb(8, 75, 75);
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .btns button:hover {
     background: rgb(5, 50, 50);
     color: white;
-   
+}
+
+
+
+@media (max-width: 768px) {
+
+    .project-details {
+        padding: 25px;
+    }
+
+    .project-details h1 {
+        font-size: 32px;
+    }
+
+    .project-details p {
+        font-size: 16px;
+    }
+
+    .btns button {
+        width: 100%;
+        padding: 14px;
+    }
+}
+
+
+/* =========================
+   Mobile Responsive
+========================= */
+@media (max-width: 480px) {
+
+    .project-details {
+        padding: 20px;
+    }
+
+    .project-details h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .project-details p {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .project-details ul {
+        padding-left: 20px;
+        font-size: 15px;
+    }
+
+    .project-details a {
+        display: block;
+        margin-top: 15px;
+    }
+
+    .btns button {
+        font-size: 15px;
+        padding: 12px;
+    }
 }
