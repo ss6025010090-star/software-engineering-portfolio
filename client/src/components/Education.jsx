@@ -6,9 +6,7 @@ function Education(){
     return(
         <section className="education" id="education">
 
-            <h1>
-                Education & Experience
-            </h1>
+            <h1>Education & Experience</h1>
 
 
             <div className="education-container">

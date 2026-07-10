@@ -8,9 +8,7 @@ function Home() {
             <div className="full-info">
                 <div className="info">
                     <h1>Hello, I'm Sok Sonita</h1>
-                    <h2>
-                        Software Engineering Student | Full Stack Developer
-                    </h2>
+                    <h2>Software Engineering Student | Full Stack Developer</h2>
                     <p>
                         I build modern web applications using React, Node.js, and MongoDB.
                         I enjoy creating clean, simple, and user-friendly designs.

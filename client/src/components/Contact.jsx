@@ -34,7 +34,7 @@ function Contact() {
         e.preventDefault();
 
 
-        // Validation
+        
 
         if(formData.name.trim().length < 2){
 
@@ -143,28 +143,13 @@ function Contact() {
 
 
             <h1>Contact Me</h1>
-
-
-
             <div className="contact-container">
-
-
                 <div className="contact-info">
-
-
                     <h2>Get In Touch</h2>
-
-
-                    
-
 
                     <p>Email</p>
 
-                    <a href="mailto:ss6025010090@camtech.edu.kh">
-
-                        ss6025010090@camtech.edu.kh
-
-                    </a>
+                    <a href="mailto:ss6025010090@camtech.edu.kh"> ss6025010090@camtech.edu.kh </a>
 
 
 
@@ -191,21 +176,13 @@ function Contact() {
                     className="contact-form"
                     onSubmit={handleSubmit}
                 >
-
-
-
                     <input
 
                         type="text"
-
                         name="name"
-
                         placeholder="Your Name"
-
                         value={formData.name}
-
                         onChange={handleChange}
-
                         required
 
                     />
@@ -215,15 +192,10 @@ function Contact() {
                     <input
 
                         type="email"
-
                         name="email"
-
                         placeholder="Your Email"
-
                         value={formData.email}
-
                         onChange={handleChange}
-
                         required
 
                     />
@@ -233,15 +205,10 @@ function Contact() {
                     <input
 
                         type="text"
-
                         name="subject"
-
                         placeholder="Subject"
-
                         value={formData.subject}
-
                         onChange={handleChange}
-
                         required
 
                     />
@@ -251,15 +218,10 @@ function Contact() {
                     <textarea
 
                         name="message"
-
                         placeholder="Your Message"
-
                         rows="6"
-
                         value={formData.message}
-
                         onChange={handleChange}
-
                         required
 
                     />

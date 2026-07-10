@@ -25,10 +25,7 @@ function Project() {
                         <div className="boxes" key={project._id}>
 
                             {project.imageUrl && (
-                                <img
-                                    src={project.imageUrl}
-                                    alt={project.title}
-                                />
+                                <img src={project.imageUrl} alt={project.title}/>
                             )}
 
                             <h3>{project.title}</h3>

@@ -40,9 +40,7 @@ function Navbar() {
     return (
         <nav className="navbar">
 
-            <h2 className="logo">
-                Full<span className="full-dev">Dev</span>
-            </h2>
+            <h2 className="logo">Full<span className="full-dev">Dev</span></h2>
 
 
             <button 
