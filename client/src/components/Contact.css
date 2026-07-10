@@ -1,55 +1,35 @@
 .contact {
 
     background-color: rgb(8,75,75);
-
     color:white;
-
     padding:80px 20px;
-
     text-align:center;
-
 }
 
 .status {
-
     margin-top: 15px;
-
     color: rgb(5, 129, 224);
-
     font-weight: bold;
-
     text-align: center;
-
 }
 
 
 
 
 .contact h1 {
-
     font-size:32px;
-
     margin-bottom:50px;
-
 }
-
-
 
 
 
 .contact-container {
-
     display:flex;
-
     justify-content:center;
-
     gap:50px;
-
     flex-wrap:wrap;
 
 }
-
-
 
 
 
@@ -57,17 +37,11 @@
 .contact-form {
 
     width:380px;
-
     background:rgba(255,255,255,0.08);
-
     border:1px solid rgba(255,255,255,0.2);
-
     border-radius:20px;
-
     padding:35px;
-
     backdrop-filter:blur(10px);
-
     transition:0.3s ease;
 
 }
@@ -80,11 +54,8 @@
 .contact-form:hover {
 
     transform:translateY(-8px);
-
     border-color:rgb(5,129,224);
-
     box-shadow:
-
     0 10px 30px rgba(5,129,224,0.3);
 
 }
@@ -94,11 +65,8 @@
 .contact-info h2 {
 
     text-align:center;
-
     color:rgb(5,129,224);
-
     margin-bottom:30px;
-
     font-size:25px;
 
 }
@@ -108,9 +76,7 @@
 .contact-info p {
 
     margin-top:25px;
-
     font-size:17px;
-
     font-weight:bold;
 
 }
@@ -120,17 +86,11 @@
 .contact-info a {
 
     display:block;
-
     margin-top:8px;
-
     color:white;
-
     text-decoration:none;
-
     padding:10px;
-
     background:rgba(255,255,255,0.05);
-
     border-radius:10px;
 
 }
@@ -140,7 +100,6 @@
 .contact-info a:hover {
 
     color:rgb(5,129,224);
-
     background:rgba(5,129,224,0.1);
 
 }
@@ -152,7 +111,6 @@
 .contact-form {
 
     display:flex;
-
     flex-direction:column;
 
 }

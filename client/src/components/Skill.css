@@ -1,13 +1,9 @@
 .skill {
 
     background-color: rgb(8,75,75);
-
     color:white;
-
     min-height:100vh;
-
     padding:80px 20px;
-
     text-align:center;
 
 }
@@ -16,7 +12,6 @@
 .skill h1 {
 
     font-size:32px;
-
     margin-bottom:50px;
 
 }
@@ -34,11 +29,8 @@
 .contain-all {
 
     display:flex;
-
     flex-direction:column;
-
     align-items:center;
-
     gap:30px;
 
 }
@@ -53,15 +45,10 @@
 
 
     display:flex;
-
     justify-content:center;
-
     align-items:center;
-
     gap:30px;
-
     width:90%;
-
     max-width:1100px;
 
 }
@@ -79,17 +66,11 @@
 
 
     background-color:rgba(18,248,240,0.75);
-
     color:rgb(8,75,75);
-
     width:500px;
-
     min-height:130px;
-
     border-radius:15px;
-
     padding:20px;
-
     transition:0.3s;
 
 
@@ -103,10 +84,8 @@
 .box-4:hover,
 .box-5:hover,
 .box-6:hover {
-
-
+    
     transform:translateY(-8px);
-
     box-shadow:0 10px 25px rgba(18,248,240,0.3);
 
 
@@ -119,7 +98,6 @@
 .box3 h2 {
 
     text-align:center;
-
     margin-bottom:20px;
 
 }
@@ -137,13 +115,9 @@
 
 
     display:flex;
-
     justify-content:center;
-
     align-items:center;
-
     gap:25px;
-
     flex-wrap:wrap;
 
 }
@@ -159,9 +133,7 @@
 
 
     display:flex;
-
     align-items:center;
-
     gap:8px;
 
 }
@@ -188,11 +160,8 @@
 
 
     width:35px;
-
     height:35px;
-
     border-radius:50%;
-
     object-fit:cover;
 
 }
@@ -205,17 +174,12 @@
 .box2 h3,
 .box3 h3 {
 
-
     margin:0;
-
     font-size:16px;
-
 
 }
 
 
-
-/* Tablet */
 
 @media(max-width:1000px){
 
@@ -224,11 +188,8 @@
     .box2,
     .box3{
 
-
         flex-direction:column;
-
         width:100%;
-
 
     }
 
@@ -260,20 +221,13 @@
 
 
     .skill {
-
-
         padding:60px 15px;
-
-
     }
 
 
 
     .skill h1 {
-
-
         font-size:28px;
-
 
     }
 
@@ -286,13 +240,8 @@
     .box-5,
     .box-6{
 
-
         width:100%;
-
-
         padding:20px 10px;
-
-
     }
 
 
@@ -303,10 +252,7 @@
     .language5,
     .language6{
 
-
         gap:15px;
-
-
     }
 
 
@@ -316,10 +262,7 @@
     .Language-3,
     .Language-4{
 
-
         font-size:14px;
-
-
     }
 
 
